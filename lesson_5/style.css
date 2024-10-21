@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.coins, .energy {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.icon {
+    width: 30px;
+    margin-right: 10px;
+}
+.ham-container {
+    position: relative;
+}
+.ham {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 200px;
+    border: 2px solid #313501;
+}
+.ham:active {
+    transform: scale(0.95);
+}
