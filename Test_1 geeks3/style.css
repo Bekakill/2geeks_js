@@ -1,0 +1,14 @@
+/* 4 Задача */
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #f4f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+.active {
+    background-color: #ef0529;
+}
